@@ -1,0 +1,95 @@
+.button {
+    -fx-text-align: center;
+    -fx-font-size: 38px;
+    -fx-margin: 4px 2px;
+    -fx-display: inline-block;
+    -fx-text-decoration: none;
+    -fx-cursor: pointer;
+}
+
+.button.special {
+    -fx-background-color: #FFFFFF;
+    -fx-border: none;
+    -fx-color: white;
+    -fx-padding: 14px 28px;
+    -fx-text-align: center;
+    -fx-skin: 'projekt.MyButtonSkin';
+    -fx-font-size: 16px;
+    -fx-margin: 4px 2px;
+    -fx-display: inline-block;
+    -fx-text-decoration: none;
+    -fx-cursor: pointer;
+}
+
+.label.title {
+    -fx-font-size: 30px;
+}
+
+.hbox {
+    -fx-background-color: #FFFFFF;
+}
+
+.vbox {
+    -fx-background-color: #b5b5b5;
+}
+
+.text-field.header-section {
+    -fx-background-color: #FFFFFF;
+    -fx-color: white;
+    -fx-padding: 14px 28px;
+    -fx-text-align: center;
+    -fx-font-size: 16px;
+    -fx-margin: 4px 2px;
+    -fx-skin: 'projekt.MyTextFieldSkin';
+    -fx-display: inline-block;
+    -fx-text-decoration: none;
+    -fx-cursor: pointer;
+}
+
+.text-field.content-section {
+    -fx-background-color: #FFFFFF;
+    -fx-color: white;
+    -fx-border-color: black;
+    -fx-pref-width: 200px;
+    -fx-border: 1px;
+    -fx-text-align: center;
+    -fx-font-size: 12px;
+    -fx-display: inline-block;
+    -fx-text-decoration: none;
+    -fx-cursor: pointer;
+    -fx-skin: 'projekt.MyTextFieldSkin';
+}
+
+.text-field:empty .text {
+    -fx-effect: null ;
+}
+
+.combo-box {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: black;
+    -fx-border: 1px;
+    -fx-pref-width: 200px;
+}
+
+.check-box{
+    -fx-background-color: #eee;
+    -fx-spacing: 5;
+    -fx-padding: 5;
+}
+
+ /*on mouse-over change color to grey*/
+.check-box:hover input .check-box{
+    -fx-background-color: #A0A0A0;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check-box input:selected .check-box{
+    -fx-background-color: #00ffff;
+}
+
+.line{
+    -fx-fill: BLACK;
+    -fx-smooth: TRUE;
+    -fx-stroke-line-cap: round;
+}
+
